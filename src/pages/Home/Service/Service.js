@@ -16,7 +16,7 @@ const Service = () => {
                     we provide <span className='text-blue-500'>truly prominent IT solutions.</span></h2>
             </div>
             <div class="container mx-auto mt-7">
-                <div className='grid grid-cols-3 gap-4'>
+                <div className='grid md:grid-cols-3 gap-4'>
                     {
                         services.map(service => <SingleService
                             key={service.id}
@@ -25,6 +25,10 @@ const Service = () => {
                         </SingleService>)
                     }
                 </div>
+            </div>
+            <div className='mx-auto container text-center space-x-5   mb-7'>
+                <button className='bg-blue-500 rounded-md p-2 mt-7 h-4/5 font-semibold md:w-64 text-white'>Talk A Consultant</button>
+                <button className='hover:bg-blue-500 bg-white border h-4/5 text-blue-500 hover:text-white  rounded-md p-2 mt-7 font-semibold md:w-64 '>Contact Us Now</button>
             </div>
         </div>
     );

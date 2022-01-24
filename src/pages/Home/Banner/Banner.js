@@ -10,7 +10,7 @@ const Banner = () => {
                     <p className='mt-7'>Share your idea, we will build your product and help achieve your vision.</p>
                     <p className='mt-7 font-semibold md:text-3xl'>Talk with our experts for 30 <br /> minutes of free product <br />
                         consultation!</p>
-                    <button className='bg-blue-500 rounded-md p-2 mt-7 font-semibold text-white'>Get A Free Consultation</button>
+                    <button className='bg-blue-500 rounded-md p-2 mt-7 font-semibold md:w-96 text-white'>Get A Free Consultation</button>
                 </div>
                 <div>
                     <img className='w-2/4' src="https://res.cloudinary.com/abdulprogton/image/upload/v1620743309/progton-website/custom-images/progton-5-year-logo.webp" alt="" />
