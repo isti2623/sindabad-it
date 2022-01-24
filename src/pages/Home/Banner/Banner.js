@@ -14,7 +14,7 @@ const Banner = () => {
                 </div>
                 <div>
                     <img className='w-2/4' src="https://res.cloudinary.com/abdulprogton/image/upload/v1620743309/progton-website/custom-images/progton-5-year-logo.webp" alt="" />
-                    <span className='md:text-4xl font-semibold'>Celebrating 5 Years of <br /> Success!</span>
+                    <span className='md:text-4xl font-semibold'>Celebrating 5 Years of <br /><span className='text-center text-blue-500'>Success!</span></span>
                 </div>
             </div>
         </div>
