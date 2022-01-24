@@ -9,8 +9,8 @@ const MidBanner = () => {
                     <h2 className='font-semibold text-4xl text-blue-500 mt-5'>Call us now for free Product Discovery <br /> Workshop.</h2>
                 </div>
                 <div className='text-center md:ml-24  space-x-5 mt-8'>
-                    <button className='bg-blue-500 rounded-md p-2 mt-7 font-semibold md:w-64 text-white'>Talk A Consultant</button>
-                    <button className='bg-blue-500 rounded-md p-2 mt-7 font-semibold md:w-64 text-white'>Talk A Consultant</button>
+                    <button className='bg-blue-500 rounded-md p-2 mt-7 font-semibold md:w-64 text-white'>Let's Talk</button>
+                    <button className='bg-blue-500 rounded-md p-2 mt-7 font-semibold md:w-64 text-white'>Get Info</button>
                 </div>
             </div>
         </div>

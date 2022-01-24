@@ -152,7 +152,7 @@ const Technology = () => {
                 </ul>
                 <div class="tab-content" id="tabs-tabContentFill">
                     <div class="tab-pane fade show active" id="tabs-homeFill" role="tabpanel" aria-labelledby="tabs-home-tabFill">
-
+                        Mobile
                     </div>
                     <div class="tab-pane fade" id="tabs-frontendFill" role="tabpanel" aria-labelledby="tabs-profile-tabFill">
                         Frontend
