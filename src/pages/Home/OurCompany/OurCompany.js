@@ -6,7 +6,7 @@ const OurCompany = () => {
         <div>
             <div className='text-center mt-28 font-semibold mb-16'>
                 <h2 className='text-slate-500 mb-7'>DISCOVER OUR COMPANY</h2>
-                <h2 className='mb-7 text-5xl'> <span className='text-blue-500'>5+ Years</span>in Operation. <span className='text-blue-500'>15+ Years</span> in Industry</h2>
+                <h2 className='mb-7 text-5xl'> <span className='text-blue-500'>5+ Years</span>in Operation. <span className='text-blue-500'>15+ Years</span>in Industry</h2>
             </div>
 
 
@@ -82,7 +82,7 @@ const OurCompany = () => {
                         <h2 className=' mb-7 text-slate-500 font-semibold text-xl text-center'>This is possible because of our open work environment and culture that encourages a clear focus on delivering high-quality <br /> software solutions with the highest level of customer satisfaction.</h2>
                     </div>
                     <div class="tab-pane fade" id="tabs-servicesFill" role="tabpanel" aria-labelledby="tabs-profile-tabFill">
-                        <ul className='font-semibold text-slate-500 text-xl list-disc'>
+                        <ul className='font-semibold text-slate-500 text-center text-xl list-disc'>
                             <li>Web Development</li>
                             <li>Mobile Development</li>
                             <li>UI / UX Designing</li>
