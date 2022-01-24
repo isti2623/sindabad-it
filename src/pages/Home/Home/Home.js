@@ -3,6 +3,7 @@ import Banner from '../Banner/Banner';
 import Experts from '../Experts/Experts';
 import MidBanner from '../MidBanner/MidBanner';
 import OurCompany from '../OurCompany/OurCompany';
+import Satisfied from '../Satisfied/Satisfied';
 import Service from '../Service/Service';
 import Technology from '../Technology/Technology';
 import Testimonials from '../Testimonials/Testimonials';
@@ -21,6 +22,7 @@ const Home = () => {
             <MidBanner></MidBanner>
             <OurCompany></OurCompany>
             <Experts></Experts>
+            <Satisfied></Satisfied>
         </div>
     );
 };
