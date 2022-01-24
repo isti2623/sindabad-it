@@ -1,0 +1,32 @@
+[
+    {
+        "id": 101,
+        "name": "Website Design And Development",
+        "img": "https://res.cloudinary.com/abdulprogton/image/upload/v1620743703/progton-website/icons/it_solution_icons/progton-01-website.svg",
+        "desc": "Creating secure, responsive web and mobile-friendly applications tailored specially for your business."
+    },
+    {
+        "id": 102,
+        "name": "E-Commerce Portal",
+        "img": "https://res.cloudinary.com/abdulprogton/image/upload/v1620743703/progton-website/icons/it_solution_icons/progton-02-ecommerce.svg",
+        "desc": "Jumpstart, grow, scale, and convert your e-commerce store into the marketplace with easily manageable products, customers, orders, invoices, and increase conversions on your website."
+    },
+    {
+        "id": 103,
+        "name": "Web Application Development",
+        "img": "https://res.cloudinary.com/abdulprogton/image/upload/v1620743703/progton-website/icons/it_solution_icons/progton-03-webapp.svg",
+        "desc": "Create beautiful, fast, and secure web applications tailored exclusively for your business goals. We are experts in Web development, Bespoke CMS, CRM, ERP Development, & Responsive Web Apps."
+    },
+    {
+        "id": 104,
+        "name": "Mobile Application Development",
+        "img": "https://res.cloudinary.com/abdulprogton/image/upload/v1620743703/progton-website/icons/it_solution_icons/progton-04-mobileapp.svg",
+        "desc": "Be it small businesses or large Enterprises; B2B or B2C, We design & build optimized & results-driven custom mobile applications using cutting edge technologies for all mobile platforms."
+    },
+    {
+        "id": 105,
+        "name": "Software Product Implementation",
+        "img": "https://res.cloudinary.com/abdulprogton/image/upload/v1620743703/progton-website/icons/it_solution_icons/progton-05-software.svg",
+        "desc": "Implementing software is super important, which is a great step in the right direction for your business. A proper implementation will maximize the value of your new system. That’s why we’ve put together steps to rightly implement, regardless of your industry."
+    }
+]
