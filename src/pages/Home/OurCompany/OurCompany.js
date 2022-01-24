@@ -74,7 +74,7 @@ const OurCompany = () => {
                 </ul>
                 <div class="tab-content" id="tabs-tabContentFill">
                     <div class="tab-pane fade show active" id="tabs-visionFill" role="tabpanel" aria-labelledby="tabs-home-tabFill">
-                        <h2 className='text-center font-semibold text-xl'>“To be the most innovative Software Services, Consulting and Development Company, and to be a committed partners <br /> of our Customers and Representatives.”</h2>
+                        <h2 className='text-center text-slate-500 font-semibold text-xl'>“To be the most innovative Software Services, Consulting and Development Company, and to be a committed partners <br /> of our Customers and Representatives.”</h2>
                     </div>
                     <div class="tab-pane fade" id="tabs-missionFill" role="tabpanel" aria-labelledby="tabs-profile-tabFill">
                         <h2 className='text-slate-500 mb-7 font-bold text-xl text-center'>Progton is on a mission to accelerate the business of our customers by embracing the idea of quality and speed to <br /> deliver innovative solutions.</h2>
@@ -82,7 +82,15 @@ const OurCompany = () => {
                         <h2 className=' mb-7 text-slate-500 font-semibold text-xl text-center'>This is possible because of our open work environment and culture that encourages a clear focus on delivering high-quality <br /> software solutions with the highest level of customer satisfaction.</h2>
                     </div>
                     <div class="tab-pane fade" id="tabs-servicesFill" role="tabpanel" aria-labelledby="tabs-profile-tabFill">
-                        OUR SERVICES
+                        <ul className='font-semibold text-slate-500 text-xl list-disc'>
+                            <li>Web Development</li>
+                            <li>Mobile Development</li>
+                            <li>UI / UX Designing</li>
+                            <li>Cloud Devops</li>
+                            <li>Digital Marketing</li>
+                            <li>AI / ML Services</li>
+                            <li>Data Services</li>
+                        </ul>
                     </div>
 
                 </div>
