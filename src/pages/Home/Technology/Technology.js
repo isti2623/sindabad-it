@@ -20,18 +20,7 @@ const Technology = () => {
                     <li class="nav-item flex-auto text-center" role="presentation">
                         <a href="#tabs-homeFill" class="
       nav-link
-      w-full
-      block
-      font-medium
-      text-xs
-      leading-tight
-      uppercase
-      border-x-0 border-t-0 border-b-2 border-transparent
-      px-6
-      py-3
-      my-2
-      hover:border-transparent hover:bg-gray-100
-      focus:border-transparent
+      tab_style
       active
     " id="tabs-home-tabFill" data-bs-toggle="pill" data-bs-target="#tabs-homeFill" role="tab"
                             aria-controls="tabs-homeFill" aria-selected="true">Mobile</a>
@@ -41,72 +30,29 @@ const Technology = () => {
                     <li class="nav-item flex-auto text-center" role="presentation">
                         <a href="#tabs-frontendFill" class="
       nav-link
-      w-full
-      block
-      font-medium
-      text-xs
-      leading-tight
-      uppercase
-      border-x-0 border-t-0 border-b-2 border-transparent
-      px-6
-      py-3
-      my-2
-      hover:border-transparent hover:bg-gray-100
-      focus:border-transparent
+      tab_style
+    
     " id="tabs-frontendFill-tabFill" data-bs-toggle="pill" data-bs-target="#tabs-frontendFill" role="tab"
                             aria-controls="tabs-frontendFill" aria-selected="false">Frontend</a>
                     </li>
                     <li class="nav-item flex-auto text-center" role="presentation">
                         <a href="#tabs-databaseFill" class="
       nav-link
-      w-full
-      block
-      font-medium
-      text-xs
-      leading-tight
-      uppercase
-      border-x-0 border-t-0 border-b-2 border-transparent
-      px-6
-      py-3
-      my-2
-      hover:border-transparent hover:bg-gray-100
-      focus:border-transparent
+      tab_style
     " id="tabs-databaseFill-tabFill" data-bs-toggle="pill" data-bs-target="#tabs-databaseFill" role="tab"
                             aria-controls="tabs-databaseFill" aria-selected="false">Database</a>
                     </li>
                     <li class="nav-item flex-auto text-center" role="presentation">
                         <a href="#tabs-backendFill" class="
       nav-link
-      w-full
-      block
-      font-medium
-      text-xs
-      leading-tight
-      uppercase
-      border-x-0 border-t-0 border-b-2 border-transparent
-      px-6
-      py-3
-      my-2
-      hover:border-transparent hover:bg-gray-100
-      focus:border-transparent
+      tab_style
     " id="tabs-backendFill-tabFill" data-bs-toggle="pill" data-bs-target="#tabs-backendFill" role="tab"
                             aria-controls="tabs-backendFill" aria-selected="false">Backend</a>
                     </li>
                     <li class="nav-item flex-auto text-center" role="presentation">
                         <a href="#tabs-ecommerceFill" class="
       nav-link
-      w-full
-      block
-      font-medium
-      text-xs
-      leading-tight
-      uppercase
-      border-x-0 border-t-0 border-b-2 border-transparent
-      px-6
-      py-3
-      my-2
-      hover:border-transparent hover:bg-gray-100
-      focus:border-transparent
+      tab_style
     " id="tabs-ecommerce-tabFill" data-bs-toggle="pill" data-bs-target="#tabs-ecommerceFill" role="tab"
                             aria-controls="tabs-ecommerceFill" aria-selected="false">E-Commerce</a>
                     </li>
@@ -115,18 +61,7 @@ const Technology = () => {
                     <li class="nav-item flex-auto text-center" role="presentation">
                         <a href="#tabs-messagesFill" class="
       nav-link
-      w-full
-      block
-      font-medium
-      text-xs
-      leading-tight
-      uppercase
-      border-x-0 border-t-0 border-b-2 border-transparent
-      px-6
-      py-3
-      my-2
-      hover:border-transparent hover:bg-gray-100
-      focus:border-transparent
+      tab_style
     " id="tabs-messages-tabFill" data-bs-toggle="pill" data-bs-target="#tabs-messagesFill" role="tab"
                             aria-controls="tabs-messagesFill" aria-selected="false">CMS</a>
                     </li>
@@ -134,18 +69,7 @@ const Technology = () => {
                     <li class="nav-item flex-auto text-center" role="presentation">
                         <a href="#tabs-infraFill" class="
       nav-link
-      w-full
-      block
-      font-medium
-      text-xs
-      leading-tight
-      uppercase
-      border-x-0 border-t-0 border-b-2 border-transparent
-      px-6
-      py-3
-      my-2
-      hover:border-transparent hover:bg-gray-100
-      focus:border-transparent
+      tab_style
     " id="tabs-infra-tabFill" data-bs-toggle="pill" data-bs-target="#tabs-infraFill" role="tab"
                             aria-controls="tabs-messagesFill" aria-selected="false">Infra, DevOps | Services</a>
                     </li>

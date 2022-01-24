@@ -8,7 +8,7 @@ const Header = () => {
                 <Link to="home"><span class="ml-3 text-xl">Sindabad IT</span></Link>
 
                 <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-                    <Link to="home"><span class="ml-3 text-sm hover:text-blue-500 font-semibold">Home</span></Link>
+                    <Link to="home"><span class="ml-3 text-sm  hover:text-blue-500 font-semibold">Home</span></Link>
                     <Link to="company"><span class="ml-3 text-sm hover:text-blue-500 font-semibold">Company</span></Link>
                     <Link to="services"><span class="ml-3 text-sm hover:text-blue-500 font-semibold">Services</span></Link>
                     <Link to="technology"><span class="ml-3 text-sm hover:text-blue-500 font-semibold">Technology</span></Link>
