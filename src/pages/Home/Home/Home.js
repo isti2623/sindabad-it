@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
 import MidBanner from '../MidBanner/MidBanner';
+import OurCompany from '../OurCompany/OurCompany';
 import Service from '../Service/Service';
 import Technology from '../Technology/Technology';
 import Testimonials from '../Testimonials/Testimonials';
@@ -17,6 +18,7 @@ const Home = () => {
             <Testimonials></Testimonials>
             <MidBanner></MidBanner>
             <Technology></Technology>
+            <OurCompany></OurCompany>
         </div>
     );
 };
