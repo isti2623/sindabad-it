@@ -1,5 +1,6 @@
 import React from 'react';
 import contact from  '../../../images/contact.PNG'
+import Iframe from 'react-iframe'
 
 const Contact = () => {
     return (
@@ -40,6 +41,15 @@ const Contact = () => {
             <img className='mb-8' src={contact} alt="" />
         </div>
         </div>
+
+       
+
+        <Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.3509387858458!2d90.3599774155118!3d23.806116692561208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7ebb77cfef3%3A0xd5a1ed34c1dbee86!2sSindabad%20IT!5e0!3m2!1sen!2sbd!4v1643368191619!5m2!1sen!2sbd"
+        width="100%"
+        height="450px"
+        id="myId"
+        className="myClassname my-10"
+        allowfullscreen="" loading="lazy"/>
     </div>
     );
 };
