@@ -1,9 +1,12 @@
 import React from 'react';
+import Footer from '../../../shared/Footer/Footer';
+import OurCompany from '../../Home/OurCompany/OurCompany';
 
 const Company = () => {
     return (
         <div>
-            <h2>Company</h2>
+            <OurCompany/>
+            <Footer/>
         </div>
     );
 };

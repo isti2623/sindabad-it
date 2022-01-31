@@ -5,7 +5,7 @@ import Iframe from 'react-iframe'
 const Contact = () => {
     return (
     <div className='container mx-auto'>
-            <div className='flex'>
+            <div className='md:flex'>
             <div className='mx-auto container'>
             <div>
                 <h2 className='font-bold md:text-6xl text-4xl mt-24 mr-4'>Need a hand?</h2>
@@ -55,3 +55,4 @@ const Contact = () => {
 };
 
 export default Contact;
+

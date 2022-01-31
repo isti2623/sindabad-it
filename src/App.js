@@ -7,10 +7,11 @@ import {
 import Home from './pages/Home/Home/Home';
 import Company from './pages/Company/Company/Company';
 import Services from './pages/Services/Services/Services';
-import Technology from './pages/Technology/Technology/Technology';
+
 import Carrer from './pages/Carrer/Carrer/Carrer';
 import Blog from './pages/Blog/Blog/Blog';
 import NavPart from './pages/Home/NavPart/NavPart';
+import Technologys from './pages/Technologys/Technologys/Technologys';
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/company" element={<Company />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/technology" element={<Technology />} />
+        <Route path="/technology" element={<Technologys />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/carrer" element={<Carrer />} />
       </Routes>
