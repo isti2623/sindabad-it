@@ -1,4 +1,4 @@
-[
+const works =[
     {
         "id": 101,
         "name": "ios",
@@ -258,3 +258,5 @@
         "img": "https://res.cloudinary.com/abdulprogton/image/upload/v1620746743/progton-website/technology-icon-colored/progton-mocha-logo.svg"
     }
 ]
+
+export default works;

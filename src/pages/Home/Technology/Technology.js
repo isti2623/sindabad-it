@@ -1,15 +1,10 @@
-import React, { useEffect, useState } from 'react';
-
+import React, { useState } from 'react';
+import works from "../../../data";
 
 const Technology = () => {
-    const [techlogies, setTechnologies] = useState([])
-    useEffect(() => {
-        fetch('./tech.json')
-            .then(res => res.json())
-            .then(data => setTechnologies(data))
-    }, [techlogies])
-    const handleFilter = (category) => {
-        const matchItems = techlogies.filter((item) => item.category === category);
+    const [techlogies, setTechnologies] = useState(works);
+      const handleFilter = (category) => {
+        const matchItems = works.filter((item) => item.category === category);
         setTechnologies(matchItems);
       };
     return (
@@ -22,12 +17,12 @@ const Technology = () => {
             <section className="container section-p mx-auto">
      <div className="case relative mt-5">
         <ul className="all-case text-center flex justify-center space-x-5 paragraph border-b-2 border-gray-800 pb-3">
-          <li
+         {/*  <li
             className="font-semibold cursor-pointer"
             onClick={() => setTechnologies(techlogies)}
           >
             <span>ALL</span>
-          </li>
+          </li> */}
           <li
             className="font-semibold cursor-pointer"
             onClick={() => handleFilter("mobile")}
@@ -54,7 +49,7 @@ const Technology = () => {
           </li>
           <li
             className="font-semibold cursor-pointer"
-            onClick={() => handleFilter("e-commerce")}
+            onClick={() => handleFilter("ecommerce")}
           >
             <span>E-COMMERCE</span>
           </li>
