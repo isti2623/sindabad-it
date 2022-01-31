@@ -9,7 +9,7 @@ import Company from './pages/Company/Company/Company';
 import Services from './pages/Services/Services/Services';
 
 import Carrer from './pages/Carrer/Carrer/Carrer';
-import Blog from './pages/Blog/Blog/Blog';
+
 import NavPart from './pages/Home/NavPart/NavPart';
 import Technologys from './pages/Technologys/Technologys/Technologys';
 
@@ -23,7 +23,6 @@ function App() {
         <Route path="/company" element={<Company />} />
         <Route path="/services" element={<Services />} />
         <Route path="/technology" element={<Technologys />} />
-        <Route path="/blog" element={<Blog />} />
         <Route path="/carrer" element={<Carrer />} />
       </Routes>
     </BrowserRouter>

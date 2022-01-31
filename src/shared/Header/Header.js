@@ -12,7 +12,7 @@ const Header = () => {
                     <Link to="company"><span class="ml-3 text-sm hover:text-blue-500 font-semibold">Company</span></Link>
                     <Link to="services"><span class="ml-3 text-sm hover:text-blue-500 font-semibold">Services</span></Link>
                     <Link to="technology"><span class="ml-3 text-sm hover:text-blue-500 font-semibold">Technology</span></Link>
-                    <Link to="blog"><span class="ml-3 text-sm hover:text-blue-500 font-semibold">Blog</span></Link>
+                    
                     <Link to="carrer"><span class="ml-3 text-sm hover:text-blue-500 font-semibold">Carrer</span></Link>
                 </nav>
                 <button class="inline-flex items-center bg-blue-500 border-0 py-1 px-3 focus:outline-none hover:bg-blue-400 rounded text-base mt-4 md:mt-0 text-white">Contact Us

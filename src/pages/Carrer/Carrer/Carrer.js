@@ -1,9 +1,14 @@
 import React from 'react';
+import Footer from '../../../shared/Footer/Footer';
+import Contact from '../../Home/Contact/Contact';
+import Experts from '../../Home/Experts/Experts';
 
 const Carrer = () => {
     return (
         <div>
-            <h2>Carrer</h2>
+            <Experts/>
+            <Contact></Contact>
+            <Footer/>
         </div>
     );
 };
