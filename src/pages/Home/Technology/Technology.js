@@ -73,17 +73,17 @@ const Technology = () => {
           
         </ul>
       </div>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-5 mt-8">
+      <div className="grid md:grid-cols-2 lg:grid-cols-5 grid-cols-1 gap-5 mt-8">
         {techlogies.map((portfolio) => (
           <div
-            className="shadow-lg hover:-translate-y-1 transition-all duration-300 rounded-md"
+            className="mx-auto hover:-translate-y-1 transition-all duration-300 rounded-md"
             key={portfolio.id}
           >
             <div>
-              <img className="cursor-pointer w-32" src={portfolio.img} alt="alt" />
+              <img className="cursor-pointer w-16" src={portfolio.img} alt="alt" />
             </div>
-            <div className="p-6">
-              <h2 className="text-primary font-semibold text-xl mb-3 cursor-pointer">
+            <div className="">
+              <h2 className="text-primary text-center font-semibold text-xl mb-3 cursor-pointer">
                 {portfolio.name}
               </h2>
             </div>
